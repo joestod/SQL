@@ -1,3 +1,5 @@
+#This analysis utilized the following telecommunications dataset:
+
 CREATE TABLE products (
     product_id INTEGER PRIMARY KEY,
     product_name TEXT,
@@ -36,7 +38,7 @@ VALUES
     (12101, 5, 25.00, 'e.okafor@example.com'),
     (12102, 2, 49.99, 'susan.wilson@example.com');
 
-# Here are my results!
+#Here are my results!
 
 SELECT * FROM products LIMIT 5;
 SELECT * FROM customer_subscriptions LIMIT 5;
